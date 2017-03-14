@@ -1,7 +1,7 @@
 /* este arquivo é uma classe que divide a pagina em 12 colunas para torná-lo responsivo */
 /* leia mais em https://www.w3schools.com/css/css_rwd_grid.asp */
 
-
+@import url(https://fonts.google.com/specimen/Titillium+Web);
 * {
     box-sizing: border-box;
 }
@@ -34,3 +34,19 @@
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+div#interface h1
+{
+    font-family: 'Cuckoo';
+    color: #ff22ff;
+    background-color: #dddddd;
+	padding: 10px; 
+	margin: 2px;
+	transition: background-color 1s;
+	text-align: center;
+}
+
+div#interface h1:hover
+{
+    background-color: #606060;
+}
